@@ -113,7 +113,7 @@ def main():
     cutoffs = [5000, 3500, 2500, 1000, 100, 50, 30, 20, 10, 5]
 
     r2_scores_test, r2_scores_train, lm_model, X_train, X_test, y_train, y_test = find_optimal_lm_mod(X, y, cutoffs, plot=False)
-    print('Finished Finding the Best Model')
+    print('Finished Finding the Best Model ')
     return lm_model
 
 
